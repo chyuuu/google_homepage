@@ -1,0 +1,57 @@
+body{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+
+.googlelogo {
+    position: fixed;
+    top: 25%;
+    left: 50%;
+} 
+
+.searchbar {
+    position: fixed;
+    top: 40%;
+    left: 60%;
+}
+
+ nav ul {
+    list-style-type: none; /*removes bullets*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+footer ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding: 0;
+    overflow: hidden;
+    position:absolute;
+    bottom:0;
+    width:100%;
+  }
+
+.about {
+    background-color: black;
+}
+
+#about, #store, #ad, #business {
+    float:left;
+    margin-left:20px;
+}
+
+
+#images, #gmail, #squares, #signin, #settings, #terms, #privacy {
+    float: right;
+    margin-right: 40px;
+}
+
+.googlesearch {
+
+}
+
+.lucky {
+
+}
