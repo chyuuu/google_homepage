@@ -1,8 +1,9 @@
 body{
     -webkit-appearance: none;
     -moz-appearance: none;
+    font-family: arial, sans-serif;
+    font-size: 13px;
 }
-
 
 .googlelogo {
     position: fixed;
@@ -13,7 +14,7 @@ body{
 .searchbar {
     position: fixed;
     top: 40%;
-    left: 60%;
+    left: 50%;
 }
 
  nav ul {
@@ -48,10 +49,28 @@ footer ul {
     margin-right: 40px;
 }
 
-.googlesearch {
-
+#googlesearch {
+    position: fixed;
+    top: 50%;
+    left: 50%;
 }
 
-.lucky {
+#lucky {
+    position: fixed;
+    top: 50%;
+    left: 58.5%;
+}
 
+a:link {
+    color: gray;
+    text-decoration: none;
+}
+
+a:visited {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
