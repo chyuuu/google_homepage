@@ -5,16 +5,39 @@ body{
     font-size: 13px;
 }
 
+nav footer {
+    display: inline;
+}
+
+a:link {
+    color: gray;
+    text-decoration: none;
+}
+
+a:visited {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .googlelogo {
-    position: fixed;
-    top: 25%;
+    height: 100px;
+    width: 100px;
+    position: absolute;
     left: 50%;
+    margin-left: -50px;
+    top: 30%;
+    margin-top: -50px;
 } 
 
 .searchbar {
     position: fixed;
     top: 40%;
     left: 50%;
+    border-radius: 40px;
 }
 
  nav ul {
@@ -34,19 +57,32 @@ footer ul {
     width:100%;
   }
 
+  .footerbar {
+    box-sizing: content-box;
+    display: block;
+    float: none;
+    position: static;
+    line-height: 40px;
+    color: #222;
+    z-index: -100;
+  }
+
 .about {
     background-color: black;
 }
 
-#about, #store, #ad, #business {
+#about, #store, #ad, 
+#business {
     float:left;
     margin-left:20px;
 }
 
 
-#images, #gmail, #squares, #signin, #settings, #terms, #privacy {
-    float: right;
+#images, #gmail, #squares, 
+#signin, #privacy, #terms,
+#settings {
     margin-right: 40px;
+    float: right;
 }
 
 #googlesearch {
@@ -59,18 +95,4 @@ footer ul {
     position: fixed;
     top: 50%;
     left: 58.5%;
-}
-
-a:link {
-    color: gray;
-    text-decoration: none;
-}
-
-a:visited {
-    color: gray;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
 }
